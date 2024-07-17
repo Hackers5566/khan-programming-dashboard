@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inbox</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.dashboard-inbox {
+			width: 100%;
+			margin: 20px auto;
+			padding: 20px;
+			background-color: #f9f9f9;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.inbox-header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			border-bottom: 1px solid #333;
+		}
+		
+		.inbox-header h2 {
+			margin: 0;
+		}
+		
+		.inbox-list {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.inbox-list li {
+			padding: 10px;
+			border-bottom: 1px solid #ddd;
+		}
+		
+		.inbox-list li:hover {
+			background-color: #f0f0f0;
+		}
+		
+		.inbox-list li:last-child {
+			border-bottom: none;
+		}
+		
+		.inbox-message {
+			display: flex;
+			align-items: center;
+		}
+		
+		.inbox-message img {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+		
+		.inbox-message .message-info {
+			flex: 1;
+		}
+		
+		.inbox-message .message-info h3 {
+			margin: 0;
+		}
+		
+		.inbox-message .message-info p {
+			margin: 0;
+			color: #666;
+		}
+		
+		.inbox-message .message-actions {
+			margin-left: 10px;
+		}
+		
+		.inbox-message .message-actions a {
+			color: #337ab7;
+			text-decoration: none;
+		}
+		
+		.inbox-message .message-actions a:hover {
+			color: #23527c;
+		}
+	</style>
+</head>
+<body>
+	<div class="dashboard-inbox">
+		<div class="inbox-header">
+			<h2>Inbox</h2>
+		</div>
+		<ul class="inbox-list">
+			<li>
+				<div class="inbox-message">
+					<img src="/ddcb8598-23d2-42e1-bde2-dcb7cb06e9be.jpeg" alt="User Avatar">
+					<div class="message-info">
+						<h3>Ramsha khan</h3>
+						<p>Hello, i am Ramsha khan. i wanna be promote my business though your sponsership</p>
+					</div>
+					<div class="message-actions">
+						<a href="#">Reply</a>
+						<a href="#">Delete</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="inbox-message">
+					<img src="/LOGO name ROCKY.jpeg" alt="User Avatar">
+					<div class="message-info">
+						<h3>Rocky</h3>
+						<p>rocky3526@gmail.com promote my account to higher my subscriber</p>
+					</div>
+					<div class="message-actions">
+						<a href="#">Reply</a>
+						<a href="#">Delete</a>
+					</div>
+				</div>
+			</li>
+			<!-- Add more list items here -->
+		</ul>
+	</div>
+</body>
+</html>
